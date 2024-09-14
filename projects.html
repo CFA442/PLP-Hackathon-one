@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | David's Financial Adventure</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Additional styles for project page layout */
+        .section {
+            margin: 20px 0;
+        }
+        .section h2, .section h3, .section h4, .section h5 {
+            color: #1a73e8; /* Matching header color */
+            margin-bottom: 10px;
+        }
+        .section a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+        .section a:hover {
+            text-decoration: underline;
+        }
+        .features-table, .how-it-works-table {
+            margin: 20px 0;
+        }
+        .features-table ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .features-table ul li {
+            margin-bottom: 5px;
+        }
+        .stage {
+            margin-bottom: 20px;
+        }
+        .stage img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 10px;
+        }
+        /* Tile styling */
+        .tile {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 15px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>David's Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Projects Overview Section -->
+        <section class="section project-overview">
+            <h2>Projects</h2>
+            <div class="tile">
+                <p><strong>Brief of the Application:</strong> The application is a Financial Independence Tracker developed using Python's tkinter for the GUI and matplotlib for chart visualizations. It allows users to input financial data such as income, expenses, savings, and liabilities, and calculates the user's financial stage based on Joshua Sheats' 7 stages of financial independence. The app also provides users with a conscious spending plan, their hero's journey to financial independence, and charts representing their financial overview. Random financial events can be triggered, which update savings and liabilities. Periodic financial tips are also displayed.</p>
+            </div>
+        </section>
+
+        <!-- Project Details Section -->
+        <section class="section project">
+            <h3>Financial Adventure</h3>
+            
+            <img src="images/financial_adventure_screenshot.png" alt="Financial Adventure Screenshot" class="tile">
+            
+            <div class="features-table tile">
+                <h4>Key Features:</h4>
+                <ul>
+                    <li>Financial Stage Calculation: Determines the user's financial independence stage based on inputs.</li>
+                    <li>Conscious Spending Plan: Displays essential, discretionary, and investment spending categories.</li>
+                    <li>Hero's Journey: Provides a narrative outlining phases of the user's financial journey.</li>
+                    <li>Charts: Visualizes financial data with pie and bar charts.</li>
+                    <li>Random Events: Simulates real-world financial events, adjusting savings and liabilities.</li>
+                    <li>Financial Tips: Periodically shows financial advice to the user.</li>
+                </ul>
+            </div>
+
+            <div class="how-it-works-table tile">
+                <h4>How the Application Works</h4>
+                <p>The Financial Adventure application helps users track their progress towards financial independence. It allows users to input their financial data and calculates their financial stage based on predefined criteria. The application also provides visualizations and insights to guide users in their financial journey.</p>
+            </div>
+
+            <h4>The 7 Stages of Financial Independence</h4>
+            <!-- Stage Sections -->
+            <section class="stage tile">
+                <h5>Stage 0 - Total Financial Dependence</h5>
+                <p>At this stage, individuals are dependent on others for financial support. To move to the next stage, focus on becoming financially independent by earning an income and managing basic expenses.</p>
+                <img src="images/financial_adventure_screenshot6.png" alt="Stage 0 - Total Financial Dependence">
+            </section>
+            
+            <section class="stage tile">
+                <h5>Stage 1 - Financial Solvency</h5>
+                <p>Individuals at this stage are able to support themselves and stay current on bills. To advance, start building a small emergency fund and managing discretionary spending.</p>
+                <img src="images/financial_adventure_screenshot7.png" alt="Stage 1 - Financial Solvency">
+            </section>
+            
+            <section class="stage tile">
+                <h5>Stage 2 - Financial Stability</h5>
+                <p>In this stage, individuals are self-supporting with some savings. To progress, work on paying off debts and increasing savings to achieve financial security.</p>
+                <img src="images/financial_adventure_screenshot8.png" alt="Stage 2 - Financial Stability">
+            </section>
+            
+            <section class="stage tile">
+                <h5>Stage 3 - Debt Freedom</h5>
+                <p>Being debt-free (excluding or including a mortgage) is the hallmark of this stage. Continue to build an emergency fund and start investing for the future.</p>
+                <img src="images/financial_adventure_screenshot9.png" alt="Stage 3 - Debt Freedom">
+            </section>
+            
+            <section class="stage tile">
+                <h5>Stage 4 - Financial Security</h5>
+                <p>At this stage, investment income covers basic living costs. To move forward, focus on enhancing investments and preparing for lifestyle upgrades.</p>
+                <img src="images/financial_adventure_screenshot10.png" alt="Stage 4 - Financial Security">
+            </section>
+            
+            <section class="stage tile">
+                <h5>Stage 5 - Financial Independence</h5>
+                <p>Investment income covers the current lifestyle. Continue to diversify investments and plan for future goals and desires.</p>
+                <img src="images/financial_adventure_screenshot11.png" alt="Stage 5 - Financial Independence">
+            </section>
+            
+            <section class="stage tile">
+                <h5>Stage 6 - Financial Freedom</h5>
+                <p>At this stage, investment income supports big dreams and lifestyle upgrades. Focus on stewardship and legacy planning to move to the final stage.</p>
+                <img src="images/financial_adventure_screenshot12.png" alt="Stage 6 - Financial Freedom">
+            </section>
+            
+            <section class="stage tile">
+                <h5>Stage 7 - Financial Abundance</h5>
+                <p>Investment income far exceeds spending needs. Concentrate on giving back, creating a legacy, and enjoying financial peace.</p>
+                <img src="images/financial_adventure_screenshot13.png" alt="Stage 7 - Financial Abundance">
+            </section>
+
+            <a href="https://github.com/CFA442/PLP-Hackathon-one.git" target="_blank" class="tile">View on GitHub</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 David's Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
